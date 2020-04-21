@@ -1,0 +1,11 @@
+#!/bin/sh
+#PBS -q gpu
+#PBS -l ngpus=1
+#PBS -l mem=10gb
+#PBS -l ncpus=1
+#PBS -N js_hungarian
+
+
+
+cd $PBS_O_WORKDIR
+./cnn_pytorch_js_hungarian.py
