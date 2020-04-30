@@ -8,4 +8,5 @@
 
 
 cd $PBS_O_WORKDIR
+./generate_hungarian_dataset_ecl.py
 ./cnn_pytorch_ecl_hungarian.py

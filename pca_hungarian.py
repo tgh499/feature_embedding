@@ -55,6 +55,6 @@ def generate_cost_matrix_for_matlab_munkres(mapping_filename, output_filename):
 
 perplexities = [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210, 230, 250, 270, 290, 310, 330, 350]
 for perplexity in perplexities:
-    mapping_filename = "mapping_ecl_" + str(perplexity) + ".csv"
-    output_filename = "cost_ecl_" + str(perplexity) + ".csv"
+    mapping_filename = "mapping_js_" + str(perplexity) + ".csv"
+    output_filename = "cost_js_" + str(perplexity) + ".csv"
     generate_cost_matrix_for_matlab_munkres(mapping_filename, output_filename)
